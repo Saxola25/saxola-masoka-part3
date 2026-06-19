@@ -43,4 +43,6 @@ function countCharacters() {
     let text = document.getElementById("message").value;
 
     document.getElementById("counter").innerHTML = text.length;
+    emailjs.send("","template_rowecxc");
 }
+emailjs.send("","template_rowecxc");
